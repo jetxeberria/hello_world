@@ -4,6 +4,7 @@ node('docker') {
         // docker.image('jetxeberria/astrodocker:latest').inside {
         docker.image('python:3.5.1').inside {
             sh 'python --version'
+            sh 'echo "Im a Jenkinsfile"'
         }
     }
 }
