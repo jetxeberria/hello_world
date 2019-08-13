@@ -7,6 +7,7 @@ node('docker') {
             sh 'echo "Im a Jenkinsfile"'
             sh 'echo "Im the same Jenkinsfile"'
             sh 'echo "Im too"'
+            sh 'echo "Another"'
         }
     }
 }
