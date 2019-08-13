@@ -6,6 +6,7 @@ node('docker') {
             sh 'python --version'
             sh 'echo "Im a Jenkinsfile"'
             sh 'echo "Im the same Jenkinsfile"'
+            sh 'echo "Im too"'
         }
     }
 }
