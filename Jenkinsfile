@@ -9,6 +9,7 @@ node('docker') {
             sh 'echo "Im too"'
             sh 'echo "Another"'
             sh 'echo "One more"'
+            sh 'echo "One more"'
         }
     }
 }
