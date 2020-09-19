@@ -1,0 +1,12 @@
+improved_layout
+	child0 (window)
+		child1 (window contents)
+			child2 (first tab)
+				child3 (top subterminal)
+					terminal4 (left subterminal)
+					terminal5 (right subterminal)
+				child6 (bottom subterminal)
+					terminal7 (left subterminal)
+					terminal8 (right subterminal)
+			terminal9 (second tab)
+			terminal10 (second tab)

@@ -1,0 +1,47 @@
+jetxeberria-linux-ws (WorkStation)
+
+  | =================================================================================================================== |
+  | SSD - 250 GB                                                                                                        |
+  | Partition   File        Mount                   Size    Name                Flags           Label           Notas   |
+  |             System      Point                                                                                       |
+  | =================================================================================================================== |
+  | /dev/sda1   NTFS        ---                     500 MB  Basic data          hidden, diag    Recuperacion    Windows |
+  | /dev/sda2   FAT32       /boot/efi               100 MB  EFI system          boot, esp       ---             Windows |
+  | /dev/sda3   ---         ---                     16  MB  Microsoft reserved  msftres         ---             Windows |
+  | /dev/sda4   NTFS        /media/jetxeberria/w10  165 GB  Basic data          msfdata         w10             Windows |
+  | /dev/sda5   EXT4        /boot                   1   GB  ---                 ---             ---             Linux   |
+  | /dev/sda6   EXT4        /usr                    30  GB  ---                 ---             ---             Linux   |
+  | /dev/sda7   EXT4        /                       37  GB  ---                 ---             ---             Linux   |
+  | =================================================================================================================== |
+
+  | =================================================================================================================== |
+  | HDD - 2 TB                                                                                                          |
+  | Partition   File        Mount                   Size    Name                Flags           Label           Notas   |
+  |             System      Point                                                                                       |
+  | =================================================================================================================== |
+  | /dev/sdb1   EXTENDED    ---                     1.8 TB  ---                 ---             ---             Total   |
+  | /dev/sdb5   EXT4        /var                    4   GB  ---                 ---             ---             Linux   |
+  | /dev/sdb6   EXT4        /tmp                    7.8 GB  ---                 ---             ---             Linux   |
+  | /dev/sdb7   LINUX-SWAP  ---                     16  GB  ---                 ---             ---             Linux   |
+  | /dev/sdb8   EXT4        /home                   102 GB  ---                 ---             ---             Linux   |
+  | /dev/sdb9   NTFS        /media/jetxeberria/data 1.7 TB  ---                 ---             ---             All Data|
+  | =================================================================================================================== |
+
+  | =================================================================================================================== |
+  | HDD Externo - 3 TB                                                                                                  |
+  | Partition   File        Mount                               Size    Name    Flags           Label           Notas   |
+  |             System      Point                                                                                       |
+  | =================================================================================================================== |
+  | /dev/sdc1   NTFS        /media/jetxeberria/Toshiba_ExtHDD   2.7 TB  boot    Toshiba_ExtHDD  ---             Backup  |
+  | =================================================================================================================== |
+
+Redirección Windows
+    SSD /dev/sda4   --->    HDD /dev/sdb9
+
+Redirección Linux
+    HDD /dev/sdb8   --->    HDD /dev/sdb9
+/home/Documents     ---> /media/jetxeberria/data/Data/Documents
+/home/Videos        ---> /media/jetxeberria/data/Data/Videos
+/home/Pictures      ---> /media/jetxeberria/data/Data/Pictures
+/home/Music         ---> /media/jetxeberria/data/Data/Music
+/home/Downloads     ---> /media/jetxeberria/data/Data/Downloads
