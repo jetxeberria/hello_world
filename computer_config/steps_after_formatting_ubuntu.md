@@ -109,7 +109,12 @@ sudo apt-get update
 sudo apt-get install git
 ```
 
-#### Set SSH key
+##### Configure
+
+git config --global user.email "etxeberria_92@hotmail.com"
+git config --global user.name "jetxeberria"
+
+##### Set SSH key
 - Create SSH key
 ```bash
 ssh-keygen -t rsa -b 4096 -c "workstation"
@@ -119,7 +124,11 @@ ssh-keygen -t rsa -b 4096 -c "workstation"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 ```
-Add public key to your GitLab / GitHub user account
+Copy public key to your GitLab / GitHub user account
+```bash
+cat ~/.ssh/id_rsa | xclip -sel clip
+```
+- Go to `https://github.com/settings/keys` and CTRL+V
 
 
 #### virtualenv
@@ -155,6 +164,12 @@ sudo apt-get install nmap
 
 ```bash
 flatpak install ~/documents/programs/flatpak/org.gimp.GIMP.flatpakref
+```
+
+OR with APT
+
+```bash
+sudo apt-get install gimp
 ```
 
 #### flatpak
