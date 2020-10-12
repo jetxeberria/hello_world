@@ -1,5 +1,7 @@
 # Modo de uso de Settle Up en la cuadrilla
 
+.. contents::
+
 Como somos muchos y haremos transacciones diversas y aplicables a distintos subgrupos, intentamos mantener un protocolo de uso. 
 
 Se distinguen dos casos de uso:
