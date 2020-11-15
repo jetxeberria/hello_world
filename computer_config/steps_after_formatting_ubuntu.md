@@ -186,6 +186,14 @@ sudo add-apt-repository ppa:alexlarsson/flatpak
 sudo apt update
 ```
 
+#### support exfat (by default supported in linux kernel >5.4)
+```bash
+sudo add-apt-repository universe
+sudo apt update
+sudo apt install exfat-fuse exfat-utils
+```
+
+
 ### Add network printer
 
 - Go to "printers" in Dash menu
