@@ -25,3 +25,6 @@ show-biggest-files:
 	@[ "${TARGET_PATH}" ] || ( echo "TARGET_PATH is absent, set automatically to current folder")
 	@[ "${NUM}" ] || ( echo "NUM is absent, set automatically to 50")
 	find $${TARGET_PATH:=.} -exec du -ShL {} + 2>/dev/null | sort -rh | head -n $${NUM:=.}
+
+backup-thunderbird-filters:
+	cp ~/.thunderbird/e9yv6kk2.default-release/ImapMail/outlook.office365.com/msgFilterRules.dat computer_config/thunderbird_filters.dat
