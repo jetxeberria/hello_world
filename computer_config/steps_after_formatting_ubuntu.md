@@ -100,6 +100,9 @@ sudo add-apt-repository ppa:phoerious/keepassxc
 sudo apt-get update
 ```
 
+### Foxit Reader
+free from web
+
 #### Configure firefox
 - Log in account
 - Enable bookmarks tab
@@ -185,6 +188,12 @@ sudo apt install flatpak
 sudo add-apt-repository ppa:alexlarsson/flatpak
 sudo apt update
 ```
+
+### vlc
+
+Download a snap from: https://www.videolan.org/vlc/
+Install with software "Software"
+
 
 #### support exfat (by default supported in linux kernel >5.4)
 ```bash
