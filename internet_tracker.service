@@ -1,9 +1,0 @@
-[Unit]
-Description=Internet tracking service
-
-[Service]
-Type=simple
-ExecStart=/bin/bash /home/jetxeberria/documents/besteak/erosketak/serbitxuak/antenas_navarra/tracking/internet_tracker.sh &
-
-[Install]
-WantedBy=multi-user.target
