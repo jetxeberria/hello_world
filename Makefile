@@ -47,6 +47,10 @@ clean-env: ## remove virtual environments (created by tox)
 help:
 	@python3.6 -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
 
+
+test: ## run tests with pytest
+	py.test
+
 find-pizarra-images:
 	@[ "${TARGET_PATH}" ] || ( echo "TARGET_PATH is absent, set automatically to current folder")
 	find $${TARGET_PATH:=.} -type f -print | xargs -I {} getfattr -d "{}" 2>/dev/null | grep -B 1 pizarra | grep file 
