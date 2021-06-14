@@ -27,7 +27,32 @@ def is_int(value):
 def swap_keys_and_values(d):
     new = {}
     for k,v in d.items():
-        if v not in new:
-            new[v] = set()
-        new[v].add(k)
+        if is_iterable(v):
+            for subv in v:
+                if subv not in new:
+                    new[subv] = set()
+                new[subv].add(k)    
+        else:
+            if v not in new:
+                new[v] = set()
+            new[v].add(k)
     return new
+
+def flatten_sequence(seq):
+    flatten = []
+    if is_iterable(seq):
+        for s in seq:
+            if is_iterable(s):
+                for i in range(len(list(s))):
+                    flatten.append(list(s)[i])
+            else:
+                flatten.append(s)
+    return flatten
+
+def is_iterable(item):
+    try:
+        iterator = iter(item)
+    except TypeError:
+        return False
+    else:
+        return True
