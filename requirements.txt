@@ -1,0 +1,6 @@
+dataclasses==0.8
+    # via pydantic
+pydantic==1.9.0
+    # via -r requirements.in
+typing-extensions==4.1.1
+    # via pydantic
