@@ -24,7 +24,7 @@ jetxeberria-linux-ws (WorkStation)
   | /dev/sdb6   EXT4        /tmp                    7.8 GB  ---                 ---             ---             Linux   |
   | /dev/sdb7   LINUX-SWAP  ---                     16  GB  ---                 ---             ---             Linux   |
   | /dev/sdb8   EXT4        /home                   102 GB  ---                 ---             ---             Linux   |
-  | /dev/sdb9   NTFS        /media/jetxeberria/data 1.7 TB  ---                 ---             ---             All Data|
+  | /dev/sdb9   NTFS        /media/jetxeberria/linux_storage 1.7 TB  ---        ---             ---             All Data|
   | =================================================================================================================== |
 
   | =================================================================================================================== |
