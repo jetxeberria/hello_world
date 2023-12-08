@@ -20,10 +20,10 @@ jetxeberria-linux-ws (WorkStation)
   |             System      Point                                                                                       |
   | =================================================================================================================== |
   | /dev/sdb1   EXTENDED    ---                     1.8 TB  ---                 ---             ---             Total   |
-  | /dev/sdb5   EXT4        /var                    4   GB  ---                 ---             ---             Linux   |
+  | /dev/sdb5   EXT4        /var                    16  GB  ---                 ---             ---             Linux   |
   | /dev/sdb6   EXT4        /tmp                    7.8 GB  ---                 ---             ---             Linux   |
   | /dev/sdb7   LINUX-SWAP  ---                     16  GB  ---                 ---             ---             Linux   |
-  | /dev/sdb8   EXT4        /home                   102 GB  ---                 ---             ---             Linux   |
+  | /dev/sdb8   EXT4        /home                   94  GB  ---                 ---             ---             Linux   |
   | /dev/sdb9   NTFS        /media/jetxeberria/linux_storage 1.7 TB  ---        ---             ---             All Data|
   | =================================================================================================================== |
 
