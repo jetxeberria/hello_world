@@ -82,7 +82,7 @@ Following the partitions description written in "Distribucion_de_particiones.md"
 - If home folders links have been updated / newly added, nautilus bookmarks must be updated.
 - Open nautilus in the folder to make a bookmark from
   ```
-  nautilus /media/jetxeberria/linux_partition/data/documents
+  nautilus /media/jetxeberria/linux_storage/data/documents
   ```
 - In option "Bookmarks" select "Bookmark this location" (CTRL+D)
 
