@@ -1,7 +1,3 @@
-# linux-notes
-Lehen froga
-Froga hau, Python-ko kurtsoko ariketa bat da.
+# hello world
 
-WIKI-n aukera batzuk orokorra git buruz dago  
-
-https://github.com/jetxeberria/hello-world/wiki#linux-notes
+This repo hosts common commands for development
