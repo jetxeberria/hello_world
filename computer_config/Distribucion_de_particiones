@@ -45,3 +45,17 @@ Redirección Linux
 /home/Pictures      ---> /media/jetxeberria/data/Data/Pictures
 /home/Music         ---> /media/jetxeberria/data/Data/Music
 /home/Downloads     ---> /media/jetxeberria/data/Data/Downloads
+
+jetxeberria-lt
+  | =================================================================================================================== |
+  | SSD - 1 TB                                                                                                        |
+  | Partition   File        Mount                   Size    Name                Flags           Label           Notas   |
+  |             System      Point                                                                                       |
+  | =================================================================================================================== |
+  | /dev/sda3   EXT4        /                       50  GB  ---                 ---             ---             Linux   |
+  | /dev/sda1   EXT4        /boot                   1   GB  ---                 ---             ---             Linux   |
+  | /dev/sda4   EXT4        /var                    20  GB  ---                 ---             ---             Linux   |
+  | /dev/sda2   EXT4        /usr                    30  GB  ---                 ---             ---             Linux   |
+  | /dev/sda5   EXT4        /tmp                    16  GB  ---                 ---             ---             Linux   |
+  | /dev/sda6   EXT4        /home                   907  GB  ---                 ---             ---             Linux   |
+  | =================================================================================================================== |
